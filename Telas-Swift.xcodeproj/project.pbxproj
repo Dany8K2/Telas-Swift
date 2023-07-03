@@ -17,6 +17,22 @@
 		A564500F2A52F61000E43605 /* Telas_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564500E2A52F61000E43605 /* Telas_SwiftTests.swift */; };
 		A56450192A52F61000E43605 /* Telas_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450182A52F61000E43605 /* Telas_SwiftUITests.swift */; };
 		A564501B2A52F61000E43605 /* Telas_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564501A2A52F61000E43605 /* Telas_SwiftUITestsLaunchTests.swift */; };
+		A564502D2A52F9D800E43605 /* UIcolor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564502C2A52F9D800E43605 /* UIcolor+.swift */; };
+		A56450302A52FD0500E43605 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A564502F2A52FD0500E43605 /* BlueViewController.xib */; };
+		A56450332A52FD3500E43605 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56450322A52FD3500E43605 /* GreenViewController.xib */; };
+		A56450352A52FD4100E43605 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56450342A52FD4100E43605 /* RedViewController.xib */; };
+		A564503C2A53040E00E43605 /* RedViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564503B2A53040E00E43605 /* RedViewControlller.swift */; };
+		A56450402A53048500E43605 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564503F2A53048500E43605 /* GreenViewController.swift */; };
+		A56450422A53049D00E43605 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450412A53049D00E43605 /* GreenView.swift */; };
+		A56450442A5304B700E43605 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450432A5304B700E43605 /* BlueViewController.swift */; };
+		A56450482A53063900E43605 /* BlueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450472A53063900E43605 /* BlueView.swift */; };
+		A564504A2A53070900E43605 /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450492A53070900E43605 /* ButtonDefault.swift */; };
+		A564504C2A53074C00E43605 /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564504B2A53074C00E43605 /* ViewDefault.swift */; };
+		A564504E2A53082C00E43605 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564504D2A53082B00E43605 /* Coordinator.swift */; };
+		A56450502A53085900E43605 /* BlueCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564504F2A53085900E43605 /* BlueCoordinator.swift */; };
+		A56450522A53086700E43605 /* GreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450512A53086700E43605 /* GreenCoordinator.swift */; };
+		A56450542A53087100E43605 /* RedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450532A53087100E43605 /* RedCoordinator.swift */; };
+		A56450562A53126B00E43605 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450552A53126B00E43605 /* RedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,22 @@
 		A56450142A52F61000E43605 /* Telas-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Telas-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56450182A52F61000E43605 /* Telas_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telas_SwiftUITests.swift; sourceTree = "<group>"; };
 		A564501A2A52F61000E43605 /* Telas_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telas_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A564502C2A52F9D800E43605 /* UIcolor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+.swift"; sourceTree = "<group>"; };
+		A564502F2A52FD0500E43605 /* BlueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
+		A56450322A52FD3500E43605 /* GreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
+		A56450342A52FD4100E43605 /* RedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
+		A564503B2A53040E00E43605 /* RedViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewControlller.swift; sourceTree = "<group>"; };
+		A564503F2A53048500E43605 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		A56450412A53049D00E43605 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
+		A56450432A5304B700E43605 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A56450472A53063900E43605 /* BlueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueView.swift; sourceTree = "<group>"; };
+		A56450492A53070900E43605 /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
+		A564504B2A53074C00E43605 /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
+		A564504D2A53082B00E43605 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A564504F2A53085900E43605 /* BlueCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCoordinator.swift; sourceTree = "<group>"; };
+		A56450512A53086700E43605 /* GreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCoordinator.swift; sourceTree = "<group>"; };
+		A56450532A53087100E43605 /* RedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCoordinator.swift; sourceTree = "<group>"; };
+		A56450552A53126B00E43605 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +133,8 @@
 		A5644FF32A52F60C00E43605 /* Telas-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				A5644FF42A52F60C00E43605 /* AppDelegate.swift */,
-				A5644FF62A52F60C00E43605 /* SceneDelegate.swift */,
-				A5644FF82A52F60C00E43605 /* ViewController.swift */,
-				A5644FFA2A52F60C00E43605 /* Main.storyboard */,
-				A56450002A52F60F00E43605 /* Assets.xcassets */,
-				A56450022A52F60F00E43605 /* LaunchScreen.storyboard */,
-				A56450052A52F60F00E43605 /* Info.plist */,
-				A5644FFD2A52F60C00E43605 /* Telas_Swift.xcdatamodeld */,
+				A56450272A52F6C500E43605 /* Resource */,
+				A56450282A52F6D800E43605 /* Source */,
 			);
 			path = "Telas-Swift";
 			sourceTree = "<group>";
@@ -128,6 +154,100 @@
 				A564501A2A52F61000E43605 /* Telas_SwiftUITestsLaunchTests.swift */,
 			);
 			path = "Telas-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		A56450272A52F6C500E43605 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5644FF42A52F60C00E43605 /* AppDelegate.swift */,
+				A5644FF62A52F60C00E43605 /* SceneDelegate.swift */,
+				A5644FF82A52F60C00E43605 /* ViewController.swift */,
+				A5644FFA2A52F60C00E43605 /* Main.storyboard */,
+				A56450002A52F60F00E43605 /* Assets.xcassets */,
+				A56450022A52F60F00E43605 /* LaunchScreen.storyboard */,
+				A56450052A52F60F00E43605 /* Info.plist */,
+				A5644FFD2A52F60C00E43605 /* Telas_Swift.xcdatamodeld */,
+				A564502F2A52FD0500E43605 /* BlueViewController.xib */,
+				A56450322A52FD3500E43605 /* GreenViewController.xib */,
+				A56450342A52FD4100E43605 /* RedViewController.xib */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A56450282A52F6D800E43605 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A564502B2A52F9AA00E43605 /* Extensions */,
+				A564502E2A52FA0900E43605 /* Infraestructure */,
+				A56450292A52F72E00E43605 /* Controller */,
+				A564502A2A52F73400E43605 /* Coordinator */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A56450292A52F72E00E43605 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A56450362A5303B100E43605 /* Blue */,
+				A56450372A5303BD00E43605 /* Green */,
+				A56450382A5303C600E43605 /* Red */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A564502A2A52F73400E43605 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A564504D2A53082B00E43605 /* Coordinator.swift */,
+				A564504F2A53085900E43605 /* BlueCoordinator.swift */,
+				A56450512A53086700E43605 /* GreenCoordinator.swift */,
+				A56450532A53087100E43605 /* RedCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A564502B2A52F9AA00E43605 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A564502C2A52F9D800E43605 /* UIcolor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A564502E2A52FA0900E43605 /* Infraestructure */ = {
+			isa = PBXGroup;
+			children = (
+				A56450492A53070900E43605 /* ButtonDefault.swift */,
+				A564504B2A53074C00E43605 /* ViewDefault.swift */,
+			);
+			path = Infraestructure;
+			sourceTree = "<group>";
+		};
+		A56450362A5303B100E43605 /* Blue */ = {
+			isa = PBXGroup;
+			children = (
+				A56450472A53063900E43605 /* BlueView.swift */,
+				A56450432A5304B700E43605 /* BlueViewController.swift */,
+			);
+			path = Blue;
+			sourceTree = "<group>";
+		};
+		A56450372A5303BD00E43605 /* Green */ = {
+			isa = PBXGroup;
+			children = (
+				A56450412A53049D00E43605 /* GreenView.swift */,
+				A564503F2A53048500E43605 /* GreenViewController.swift */,
+			);
+			path = Green;
+			sourceTree = "<group>";
+		};
+		A56450382A5303C600E43605 /* Red */ = {
+			isa = PBXGroup;
+			children = (
+				A56450552A53126B00E43605 /* RedView.swift */,
+				A564503B2A53040E00E43605 /* RedViewControlller.swift */,
+			);
+			path = Red;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +354,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56450352A52FD4100E43605 /* RedViewController.xib in Resources */,
 				A56450042A52F60F00E43605 /* LaunchScreen.storyboard in Resources */,
+				A56450332A52FD3500E43605 /* GreenViewController.xib in Resources */,
 				A56450012A52F60F00E43605 /* Assets.xcassets in Resources */,
+				A56450302A52FD0500E43605 /* BlueViewController.xib in Resources */,
 				A5644FFC2A52F60C00E43605 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +385,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5644FF92A52F60C00E43605 /* ViewController.swift in Sources */,
+				A56450562A53126B00E43605 /* RedView.swift in Sources */,
+				A564503C2A53040E00E43605 /* RedViewControlller.swift in Sources */,
+				A564504E2A53082C00E43605 /* Coordinator.swift in Sources */,
+				A56450422A53049D00E43605 /* GreenView.swift in Sources */,
+				A56450502A53085900E43605 /* BlueCoordinator.swift in Sources */,
+				A56450522A53086700E43605 /* GreenCoordinator.swift in Sources */,
+				A564504A2A53070900E43605 /* ButtonDefault.swift in Sources */,
 				A5644FFF2A52F60C00E43605 /* Telas_Swift.xcdatamodeld in Sources */,
+				A56450482A53063900E43605 /* BlueView.swift in Sources */,
+				A56450402A53048500E43605 /* GreenViewController.swift in Sources */,
+				A564502D2A52F9D800E43605 /* UIcolor+.swift in Sources */,
+				A564504C2A53074C00E43605 /* ViewDefault.swift in Sources */,
 				A5644FF52A52F60C00E43605 /* AppDelegate.swift in Sources */,
+				A56450442A5304B700E43605 /* BlueViewController.swift in Sources */,
+				A56450542A53087100E43605 /* RedCoordinator.swift in Sources */,
 				A5644FF72A52F60C00E43605 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
