@@ -18,9 +18,6 @@
 		A56450192A52F61000E43605 /* Telas_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450182A52F61000E43605 /* Telas_SwiftUITests.swift */; };
 		A564501B2A52F61000E43605 /* Telas_SwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564501A2A52F61000E43605 /* Telas_SwiftUITestsLaunchTests.swift */; };
 		A564502D2A52F9D800E43605 /* UIcolor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564502C2A52F9D800E43605 /* UIcolor+.swift */; };
-		A56450302A52FD0500E43605 /* BlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A564502F2A52FD0500E43605 /* BlueViewController.xib */; };
-		A56450332A52FD3500E43605 /* GreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56450322A52FD3500E43605 /* GreenViewController.xib */; };
-		A56450352A52FD4100E43605 /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A56450342A52FD4100E43605 /* RedViewController.xib */; };
 		A564503C2A53040E00E43605 /* RedViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564503B2A53040E00E43605 /* RedViewControlller.swift */; };
 		A56450402A53048500E43605 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A564503F2A53048500E43605 /* GreenViewController.swift */; };
 		A56450422A53049D00E43605 /* GreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450412A53049D00E43605 /* GreenView.swift */; };
@@ -33,6 +30,7 @@
 		A56450522A53086700E43605 /* GreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450512A53086700E43605 /* GreenCoordinator.swift */; };
 		A56450542A53087100E43605 /* RedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450532A53087100E43605 /* RedCoordinator.swift */; };
 		A56450562A53126B00E43605 /* RedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450552A53126B00E43605 /* RedView.swift */; };
+		A56450592A589CE500E43605 /* ViewControllerDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56450582A589CE500E43605 /* ViewControllerDefault.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,9 +66,6 @@
 		A56450182A52F61000E43605 /* Telas_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telas_SwiftUITests.swift; sourceTree = "<group>"; };
 		A564501A2A52F61000E43605 /* Telas_SwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telas_SwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A564502C2A52F9D800E43605 /* UIcolor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIcolor+.swift"; sourceTree = "<group>"; };
-		A564502F2A52FD0500E43605 /* BlueViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlueViewController.xib; sourceTree = "<group>"; };
-		A56450322A52FD3500E43605 /* GreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GreenViewController.xib; sourceTree = "<group>"; };
-		A56450342A52FD4100E43605 /* RedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
 		A564503B2A53040E00E43605 /* RedViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewControlller.swift; sourceTree = "<group>"; };
 		A564503F2A53048500E43605 /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 		A56450412A53049D00E43605 /* GreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenView.swift; sourceTree = "<group>"; };
@@ -83,6 +78,7 @@
 		A56450512A53086700E43605 /* GreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCoordinator.swift; sourceTree = "<group>"; };
 		A56450532A53087100E43605 /* RedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCoordinator.swift; sourceTree = "<group>"; };
 		A56450552A53126B00E43605 /* RedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedView.swift; sourceTree = "<group>"; };
+		A56450582A589CE500E43605 /* ViewControllerDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDefault.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				A56450272A52F6C500E43605 /* Resource */,
-				A56450282A52F6D800E43605 /* Source */,
 			);
 			path = "Telas-Swift";
 			sourceTree = "<group>";
@@ -167,9 +162,7 @@
 				A56450022A52F60F00E43605 /* LaunchScreen.storyboard */,
 				A56450052A52F60F00E43605 /* Info.plist */,
 				A5644FFD2A52F60C00E43605 /* Telas_Swift.xcdatamodeld */,
-				A564502F2A52FD0500E43605 /* BlueViewController.xib */,
-				A56450322A52FD3500E43605 /* GreenViewController.xib */,
-				A56450342A52FD4100E43605 /* RedViewController.xib */,
+				A56450282A52F6D800E43605 /* Source */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -219,6 +212,7 @@
 			children = (
 				A56450492A53070900E43605 /* ButtonDefault.swift */,
 				A564504B2A53074C00E43605 /* ViewDefault.swift */,
+				A56450582A589CE500E43605 /* ViewControllerDefault.swift */,
 			);
 			path = Infraestructure;
 			sourceTree = "<group>";
@@ -354,11 +348,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56450352A52FD4100E43605 /* RedViewController.xib in Resources */,
 				A56450042A52F60F00E43605 /* LaunchScreen.storyboard in Resources */,
-				A56450332A52FD3500E43605 /* GreenViewController.xib in Resources */,
 				A56450012A52F60F00E43605 /* Assets.xcassets in Resources */,
-				A56450302A52FD0500E43605 /* BlueViewController.xib in Resources */,
 				A5644FFC2A52F60C00E43605 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +385,7 @@
 				A564504A2A53070900E43605 /* ButtonDefault.swift in Sources */,
 				A5644FFF2A52F60C00E43605 /* Telas_Swift.xcdatamodeld in Sources */,
 				A56450482A53063900E43605 /* BlueView.swift in Sources */,
+				A56450592A589CE500E43605 /* ViewControllerDefault.swift in Sources */,
 				A56450402A53048500E43605 /* GreenViewController.swift in Sources */,
 				A564502D2A52F9D800E43605 /* UIcolor+.swift in Sources */,
 				A564504C2A53074C00E43605 /* ViewDefault.swift in Sources */,

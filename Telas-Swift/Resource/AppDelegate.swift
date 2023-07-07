@@ -60,15 +60,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         return container
     }()
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        let navigationController = UINavigationController(rootViewController: BlueViewController())
-        window.rootViewController = navigationController
-        window.makeKeyAndVisible()
-        self.window = window
-        return true
-    }
 
     // MARK: - Core Data Saving support
 
@@ -87,4 +78,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
+
 
